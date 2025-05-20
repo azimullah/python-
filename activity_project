@@ -1,0 +1,10 @@
+def is_alphabet(char):
+    if char.isalpha():
+        print(f"'{char}' is an alphabet.")
+    else:
+        print(f"'{char}' is not an alphabet.")
+character = input("Enter a character: ")
+if len(character) == 1:
+    is_alphabet(character)
+else:
+    print("Please enter only a single character.")
