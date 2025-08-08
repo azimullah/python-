@@ -1,0 +1,13 @@
+start, end = input("Enter start and end numbers separated by a comma: ").split(",")
+start = int(start)
+end = int(end)
+
+for i in range(start, end):
+    square = i * i
+    print(f"{i} squared is {square}")
+    if square % 2 == 0:
+        print(f"{square} is even")
+    else:
+        print(f"{square} is odd")
+# Output: The squares of numbers from 0 to input_range-1, with even/odd classification # Output: For each number from 0 to input_range-1, prints the square and whether it is even or odd.
+
